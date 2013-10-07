@@ -246,7 +246,40 @@
 				</div>
 				
 			</div>
-
+						<!-- Picture panel -->
+			
+			<div id="picturePanel">
+				<img id="arrowPrev" class="arrow disabled" />
+				<div id="cfader"></div>
+				<div id="pictureLoadingIndicator" style="visibility:hidden;"></div>
+				<img id="arrowNext" class="arrow disabled" />
+				<!-- Builder picture panel buttons -->
+				<div class="editPictureButtons">
+					<div>
+						<span class="attributesWay">
+							<form>
+								<button class="btn btn-picture" type="button" class="btn"></button>
+								<button class="btn btn-thumbnail" type="button" class="btn"></button>
+							</form>
+						</span>
+						<span class="modernBrowserWay">
+							<form>
+								<input class="btn-picture" type="file" accept="image/jpeg" />
+								<input class="btn-thumbnail" type="file" accept="image/jpeg" />
+							</form>
+						</span>
+						<span class="oldBrowserWay">
+							<form id="ppOldBrowserWayPicForm">
+								<input class="btn-picture" type="file" accept="image/jpeg" name="attachment" />
+							</form>
+							<form id="ppOldBrowserWayThumbForm">
+								<input class="btn-thumbnail" type="file" accept="image/jpeg" name="attachment" />
+							</form>
+							<button type="button" class="btn-upload btn" disabled="true"></button>
+						</span>
+					</div>
+				</div>
+			</div>
 			
 			<div id="LegendPanel"><!--Legend--><!--Luyang 9/30/2013-->
 

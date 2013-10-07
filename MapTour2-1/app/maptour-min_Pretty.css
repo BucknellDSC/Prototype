@@ -4187,15 +4187,7 @@ textarea {
     cursor: default;
     display: none;
 }
-#LegendPanel {
-	height: 50%;
-	float: left;
-    position: relative;
-    background-color: #797979;
-	}
-.arrow {
-    cursor: pointer;
-}
+
 #picturePanel {
     height: 50%;
     float: left;
@@ -4209,6 +4201,15 @@ textarea {
     height: 400px;
     background-color: transparent;
 }
+.arrow {
+    cursor: pointer;
+}
+#LegendPanel {
+	height: 50%;
+	float: left;
+    position: relative;
+    background-color: #797979;
+	}
 .arrow {
     cursor: pointer;
 }
