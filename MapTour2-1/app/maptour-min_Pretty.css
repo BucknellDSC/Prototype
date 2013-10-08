@@ -4205,11 +4205,18 @@ textarea {
     cursor: pointer;
 }
 #LegendPanel {
-	height: 50%;
-	float: left;
+    height: 50%;
+    float: left;
     position: relative;
     background-color: #797979;
-	}
+}
+.modern-layout #picturePanel {
+    position: absolute;
+    right: 4px;
+    width: 400px;
+    height: 400px;
+    background-color: transparent;
+}
 .arrow {
     cursor: pointer;
 }
