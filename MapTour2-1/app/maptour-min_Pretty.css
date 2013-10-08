@@ -4210,7 +4210,7 @@ textarea {
     position: relative;
     background-color: #797979;
 }
-.modern-layout #picturePanel {
+.modern-layout #LegendPanel {
     position: absolute;
     right: 4px;
     width: 400px;
